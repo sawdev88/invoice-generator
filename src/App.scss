@@ -1,0 +1,49 @@
+html {
+  font-size: 1vw;
+}
+
+.form {
+  margin-bottom: 35vw;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.template-card {
+  img {
+    width: 60%;
+    height: auto;
+    margin: 2rem auto .5rem;
+  }
+}
+
+.preview-container {
+  width: 35%;
+  position: fixed;
+  right: 7%;
+  top: 6rem;
+}
+
+.preview-panel {
+  border: .05rem solid #666;
+  min-height: 80vh;
+  font-size: .6vw;
+}
+
+.area-header {
+  border-bottom: 1px solid #007cba;
+  padding: 1rem;
+  margin: 3rem 0 1.5rem;
+  color: #007cba;
+  // background: #f8f8f8;
+
+  svg {
+    vertical-align: middle;
+    margin-right: 1rem;
+  }
+}
